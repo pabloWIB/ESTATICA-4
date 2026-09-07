@@ -109,7 +109,7 @@ Cinzel and Dancing Script are both licensed under the SIL Open Font License. `as
 
 ## Deployment
 
-Deployed as a static site at [applyiing.wib.digital](https://applyiing.wib.digital). There is no build step: upload the repository root as-is, with no build command and no output directory. Point the host's 404 handler at `404.html`.
+Deployed as a static site at [pablowib.github.io/Applying-Landing](https://pablowib.github.io/Applying-Landing). There is no build step: upload the repository root as-is, with no build command and no output directory. Point the host's 404 handler at `404.html`.
 
 If the site is served from a different domain, three values need updating: the `<link rel="canonical">` and `og:url` tags in `index.html`, and the `Sitemap:` line in `robots.txt` together with the `<loc>` in `sitemap.xml`.
 
